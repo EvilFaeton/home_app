@@ -43,3 +43,13 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'bundler'
+
+gem 'acts_as_votable'
+gem 'binding_of_caller'
+gem 'rails_config'
+gem 'validates_formatting_of'
+
+group :development do
+  gem 'better_errors'
+end
